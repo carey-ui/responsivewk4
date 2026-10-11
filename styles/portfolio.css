@@ -15,12 +15,46 @@ body {
   background-color: var(--light-bg-color);
 }
 
+.nav {
+  padding: 20px 0;
+}
+
+.nav li {
+  display: inline;
+  list-style: none;
+}
+
+.nav a {
+  line-height: 40px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  margin-left: 10px;
+  transition: all 100ms ease-in-out;
+}
+
+.nav a:hover,
+.nav li.active a {
+  color: var(--btn-dark-color);
+}
+
+.logo {
+  max-height: 40px;
+}
+
 p {
   font-family: var(--p-font);
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+}
+
+h1 {
+  font-family: var(--main-font);
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 2;
 }
 
 h2 {
@@ -79,8 +113,10 @@ h2 {
 }
 
 .content-inner h1 {
+  font-family: var(--main-font);
   font-size: 64px;
   line-height: 1.5;
+  text-align: center;
 }
 
 .content-inner h2 {
@@ -110,6 +146,10 @@ h2 {
   transform: scale(0.8);
 }
 
+.contact {
+  text-align: center;
+}
+
 .btn-start {
   background: var(--text-color);
   border-radius: 6px;
@@ -131,6 +171,7 @@ h2 {
 .project-description {
   padding: 120px 60px;
 }
+
 @media (max-width: 540px) {
   .hero {
     padding: 80px 20px;
@@ -143,6 +184,7 @@ h2 {
   h2 {
     font-size: 32px;
   }
+
   .project-description {
     padding: 20px 0;
     text-align: center;
