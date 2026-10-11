@@ -70,6 +70,46 @@ h2 {
   display: block;
 }
 
+.content-inner {
+  padding: 140px 20px;
+}
+
+.content-inner .row {
+  margin-bottom: 40px;
+}
+
+.content-inner h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.content-inner h2 {
+  font-size: 18px;
+  font-family: var(--p-font);
+}
+
+.content-inner h3 {
+  font-size: 24px;
+  line-height: 2;
+  margin: 20px 0 0;
+  font-family: var(--p-font);
+}
+
+.content-inner p {
+  font-size: 14px;
+}
+
+.content-inner img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+}
+
+.content-inner img.translation-img {
+  transform: scale(0.8);
+}
+
 .btn-start {
   background: var(--text-color);
   border-radius: 6px;
@@ -116,5 +156,4 @@ h2 {
     font-size: 16px;
     padding: 12px 20px;
   }
-  
 }
